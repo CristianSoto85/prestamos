@@ -62,3 +62,24 @@ finalmente vamos a services y ejecutamos ng g s persona para crear un servicio
 ....
 
 npm install cors (para comunicar 2 servidores (angular y node))
+
+-------------------------------------------
+-------------------------------------------
+-------------------------------------------
+descargar el proyecto desde github
+
+npm install --save-dev @angular-devkit/build-angular //// para instalar angular sin requerir todos los paquetes que ya vienen
+
+ingresar a mysql y crear base de datos centroprestamos_dev.
+CREATE DATABASE centroprestamos_dev;
+USE centroprestamos_dev;
+
+ejecutar: ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'qwer1234';
+
+crear tablas y llenarlas de datos iniciales. scripts en el proyecto.
+
+ejecutar: npm run dev para node.js
+
+ejecutar: ng serve dentro de frontEnd para Angular.
+
+
