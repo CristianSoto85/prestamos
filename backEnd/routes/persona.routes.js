@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-
+//hola dadada
 const personaController = require('../controllers/persona.controller');
 
 router.get('/', personaController.getPersonas);
